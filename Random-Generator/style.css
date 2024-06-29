@@ -1,0 +1,45 @@
+* {
+	box-sizing: border-box;
+}
+
+/*Styling body */
+body {
+  background-color: hsla(125, 70%, 70%, 4);
+}
+
+/*Style div container of Quote*/
+#container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-content: space-between;
+  max-width: 40rem;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+  background-color: rgba(150, 120, 250, 1);
+  box-shadow: 0px 20px 40px black;
+  border-radius: 5%;
+}
+
+/*Styling header quote showing*/
+#header-quote {
+   color: white;
+   font-style: italic;
+   font-weight: bolder;
+   font-size: 3rem;
+   word-break: break-word;
+}
+
+/*Styling quote generator button*/
+#generate-btn {
+    max-width: 100%;
+    height: auto;
+    font-size: 2rem;
+    margin: auto;
+    padding: 1rem;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    word-break: break-word;
+
+}
